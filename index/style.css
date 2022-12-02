@@ -1,0 +1,105 @@
+body{
+    max-width: 1444px;
+    margin: 0 auto;
+}
+
+header{
+    position: fixed;
+    z-index: 999;
+}
+
+main{
+    margin-top: 80px;
+    position: absolute;
+}
+
+.fa-gamepad{
+    color: rgb(255, 255, 255);
+    transition:transform .25s ease;
+}
+
+.fa-gamepad:hover{
+    transform:scale(1.125);
+}
+
+#navbarNav{
+    align-items: flex-start;
+}
+
+.navbar-nav a {
+    color: aliceblue;
+}
+
+.navbar-nav p{
+    padding-top: 7px;
+    color: aliceblue;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.video-box img{
+    width: 100%;
+    height: 12vw;
+    object-fit: cover;
+}
+
+.video-box{
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+#carouselIndicators > h1{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.section, .about{
+    margin-top: 5px;
+    padding: 20px;
+}
+
+#lancamentos nav{
+    display: grid;
+	grid-template-columns: repeat(8, 1fr);
+}
+
+.section .card{
+    margin-bottom: 10px;
+}
+
+.section .row :nth-child(n+5){
+    display: none;
+}
+
+.openBtn, .closeBtn{
+    display: inline;
+    margin-top: 10px;
+}
+
+.about i {
+    margin-right: 5px;
+
+}
+.modal-body p {
+    text-align: justify;
+}
+.modal-footer {
+    justify-content: flex-start;
+    display: block;
+}
+footer{
+    position: fixed;
+}
